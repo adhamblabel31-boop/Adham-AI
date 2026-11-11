@@ -1,0 +1,45 @@
+# Rust build output
+/target/
+/build/
+
+# Release artifacts
+/dist/
+*.deb
+*.rpm
+*.AppImage
+/SHA256SUMS
+/SHA256SUMS.sig
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.gpg
+*.asc
+/secrets/
+/private/
+
+# User data and runtime files
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.log
+/core
+/core.*
+
+# Editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.bak
+*.orig

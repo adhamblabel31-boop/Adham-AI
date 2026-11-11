@@ -1,0 +1,49 @@
+[package]
+name = "iced-prototype"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Local AI assistant for chat and image generation"
+
+[dependencies]
+iced = { version = "0.14.0", features = ["tokio", "markdown", "svg", "image"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "stream"] }
+bytes = "1"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.37", features = ["bundled"] }
+rfd = { version = "0.15", default-features = false, features = ["tokio", "xdg-portal"] }
+pdf-extract = "0.7"
+sha2 = "0.10"
+tokio = { version = "1", features = ["fs", "io-util", "rt"] }
+url = "2"
+webbrowser = "1"
+semver = "1"
+ed25519-dalek = "2"
+tempfile = "3"
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+codegen-units = 1
+strip = "symbols"
+debug = 0
+
+[package.metadata.deb]
+name = "adham-ai"
+maintainer = "Adham <adhamblabel31@gmail.com>"
+copyright = "2026, Adham"
+license-file = ["LICENSE", "0"]
+section = "utils"
+priority = "optional"
+depends = "$auto"
+assets = [
+    ["target/release/iced-prototype", "usr/bin/adham-ai", "755"],
+    ["packaging/adham-ai.desktop", "usr/share/applications/adham-ai.desktop", "644"],
+    [
+        "packaging/icons/hicolor/scalable/apps/adham-ai.svg",
+        "usr/share/icons/hicolor/scalable/apps/adham-ai.svg",
+        "644",
+    ],
+]

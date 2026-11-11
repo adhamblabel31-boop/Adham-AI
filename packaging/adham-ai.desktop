@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Adham AI
+GenericName=AI Assistant
+Comment=Chat with local AI models and create images
+Exec=adham-ai
+TryExec=adham-ai
+Icon=adham-ai
+Terminal=false
+StartupNotify=true
+Categories=Utility;
+Keywords=AI;Assistant;Chat;Images;
