@@ -3,7 +3,7 @@ name = "iced-prototype"
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
-description = "Local AI assistant for chat and image generation"
+description = "Local AI assistant for Ubuntu 26.04 amd64 (glibc >= 2.43)"
 
 [dependencies]
 iced = { version = "0.14.0", features = ["tokio", "markdown", "svg", "image"] }
@@ -37,6 +37,7 @@ copyright = "2026, Adham"
 license-file = ["LICENSE", "0"]
 section = "utils"
 priority = "optional"
+revision = ""
 depends = "$auto"
 assets = [
     ["target/release/iced-prototype", "usr/bin/adham-ai", "755"],
