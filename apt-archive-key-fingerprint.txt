@@ -1,0 +1,4 @@
+Adham AI APT archive signing key
+Fingerprint: 7265BB14C2568E996CD57B2D6A022D3F14BD84DB
+Algorithm: RSA 3072, signing
+Distribution: Ubuntu 26.04 LTS (Resolute), amd64

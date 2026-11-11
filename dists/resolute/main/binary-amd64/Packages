@@ -1,0 +1,14 @@
+Package: adham-ai
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Adham <adhamblabel31@gmail.com>
+Installed-Size: 23154
+Depends: libc6 (>= 2.43)
+Filename: pool/main/a/adham-ai/adham-ai_0.1.0_amd64.deb
+Size: 8066108
+MD5sum: e42e20e5ac156b19fedc7559226c46f4
+SHA1: 1bc56a9a2d9c1cb59e44008512dadc1679e8895a
+SHA256: ed0ff7591cc352f0a2efcb10299db5f2cd437a62c837f79d46b88b016cfd527e
+Section: utils
+Priority: optional
+Description: Local AI assistant for Ubuntu 26.04 amd64 (glibc >= 2.43)

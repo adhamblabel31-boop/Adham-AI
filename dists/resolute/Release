@@ -1,0 +1,11 @@
+Origin: Adham AI
+Label: Adham AI
+Suite: resolute
+Codename: resolute
+Date: Wed, 11 Nov 2026 18:03:12 UTC
+Architectures: amd64
+Components: main
+Description: Adham AI packages for Ubuntu 26.04 LTS AMD64
+SHA256:
+ 703575d57906bd28836996b508d7fd85df857756ee2406e72fe52e86b23a12e2              480 main/binary-amd64/Packages
+ f9a92b85fac74e5f671a3675dbff5ed4d36c4fe1bcc2b68a2467528eca05cb4a              364 main/binary-amd64/Packages.gz

@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Adham AI
+Label: Adham AI
+Suite: resolute
+Codename: resolute
+Date: Wed, 11 Nov 2026 18:03:12 UTC
+Architectures: amd64
+Components: main
+Description: Adham AI packages for Ubuntu 26.04 LTS AMD64
+SHA256:
+ 703575d57906bd28836996b508d7fd85df857756ee2406e72fe52e86b23a12e2              480 main/binary-amd64/Packages
+ f9a92b85fac74e5f671a3675dbff5ed4d36c4fe1bcc2b68a2467528eca05cb4a              364 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEEcmW7FMJWjpls1XstagItPxS9hNsFAmr0reAACgkQagItPxS9
+hNuaMQv/YS3tJiDtWAtmihydhWrLfj+PAkld7TCJNYodl0ZdT9mXPSD4MQ+hCoF5
+SxF+Fh/AAvXh3NxBAxgWMSBR/HLTrZP+94f2WjE1cZ5Lpm+GeCdw5M/vkbc8rmcs
+f3TY7SigJPT3sgQ8UH0lRn5/hZcLC3Zuv/XoDYWMLvCK0xjnOVg258qEixK5XmuO
+GWIZ2ikNnb5enc9jQ57pTQv286+HDXwduhDeo0y52T8jyEj+ri8s/7JDbTxpWkwx
+wvGK7PywIduWzFCGH9PBSLsLeCxfawXtTGbdsKw+bjXLsuiaHMfL2Mjdslt9GgEh
+W5azFn7xvHQcnpiAlgEsbDYoVB63wi5N2TACOGrPl6md9f9jueFU5BRlP+JD1SXN
+mk6cX/S8Eb9qWbab/zcjwCFdNh0BweafCNfR+V347fS+7aHwBXVJhmyGDUq4F+py
+kcYaY8d4LYxh3agDf/Q6m1SV+zlWuFYmLDkUCJKzu26xPfVpSLiRHn51cXTV0mZn
+LAD8iVTm
+=7s8D
+-----END PGP SIGNATURE-----

@@ -1,0 +1,7 @@
+.gnupg/
+*.asc
+*.key
+*.pem
+*passphrase*
+*.tmp
+/tmp/
